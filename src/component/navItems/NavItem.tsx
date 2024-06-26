@@ -1,13 +1,13 @@
 import React from 'react';
 
-// Define the interface for the props
+
 interface NavItemProps {
   item: string;
   onClick: () => void;
   isSelected: boolean;
 }
 
-// Use the interface to type the props in the function component
+
 const NavItem: React.FC<NavItemProps> = ({ item, onClick, isSelected }) => {
   return (
     <div
